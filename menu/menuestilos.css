@@ -168,7 +168,7 @@ body{
   height: 95%;
 }
 
-
+/*CONTAINER2*/
 #container2{
   display:grid;
   grid-template-columns: 1fr  2fr 2fr 1fr;
@@ -198,7 +198,6 @@ body{
   grid-column: 2/4;
 }
 
-
 #container2 .imagen5{
   padding: 9px;
   border-radius: 1px;
@@ -216,8 +215,8 @@ body{
   grid-column: 3/4;
 }
 #container2 .imagen6 img{
-  width: 80%;
-  height: 90%;
+  width: 60%;
+  height: 100%;
 }
 #container2 .imagen7{
   padding: 9px;
@@ -226,44 +225,23 @@ body{
   grid-column: 2/3;
 }
 #container2 .imagen7 img{
-  width: 80%;
-  height: 90%;
-}
-#container2 .imagen8{
-  padding: 9px;
-  border-radius: 1px;
-  grid-row: 5/6;
-  grid-column: 3/4;
-}
-#container2 .imagen8 img{
-  width: 80%;
-  height: 90%;
-}
-#container2 .imagen8{
-  padding: 9px;
-  border-radius: 1px;
-  grid-row: 5/6;
-  grid-column: 3/4;
-}
-#container2 .imagen8 img{
-  width: 80%;
-  height: 90%;
-}
-#container2 .imagenregresar{
-  padding: 9px;
-  border-radius: 1px;
-  grid-row: 5/6;
-  grid-column: 4/5;
-}
-#container2 .imagenregresar img{
   width: 70%;
-  height: 70%;
+  height: 90%;
+}
+#container2 .imagen8{
+  padding: 9px;
+  border-radius: 1px;
+  grid-row: 5/6;
+  grid-column: 3/4;
+}
+#container2 .imagen8 img{
+  width: 70%;
+  height: 90%;
 }
 
 
 
-
-
+/*CONTAINER3*/
 #container3{
   display:grid;
   grid-template-columns: 2fr 3fr  2fr ;
@@ -285,8 +263,6 @@ body{
   grid-row: 2/3;
   grid-column: 2/3;
 }
-
-
 #container3 .imagenclash1{
   padding: 9px;
   border-radius: 1px;
@@ -327,23 +303,129 @@ body{
   width: 100%;
   height: 95%;
 }
-#container3 .imagenclash5{
+
+/*CONTAINER4*/
+#container4 {
+  display:grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: calc(0vh - 10px) calc(10vh - 10px) calc(35vh - 10px) calc(35vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+#container4 .titulo4{
   padding: 9px;
-  border-radius: 1px;
-  grid-row:1/2;
+  background-color:#329430;
+  border-radius: 5px;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+#container4 .texto4{
+  padding: 9px;
+  background-color:#329430;
+  border-radius: 5px;
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+#container4 .imagendbd1{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 3/4;
   grid-column: 1/2;
 }
-#container3 .imagenclash5 img{
-  width: 45%;
-  height: 110%;
+#container4 .imagendbd1 img{
+  width: 60%;
+  height: 60%;
 }
-#container3 .imagenclash6{
+
+#container4 .imagendbd3{
   padding: 9px;
-  border-radius: 1px;
-  grid-row:4/5;
-  grid-column: 1/2;
+  border-radius: 5px;
+  grid-row: 3/4;
+  grid-column: 2/3;
 }
-#container3 .imagenclash6 img{
+#container4 .imagendbd3 img{
   width: 100%;
-  height: 110%;
+  height: 90%;
+}
+#container4 .imagendbd4{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+#container4 .imagendbd4 img{
+  width: 90%;
+  height: 100%;
+}
+#container4 .imagendbd5{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+#container4 .imagendbd5 img{
+  width: 100%;
+  height: 100%;
+}
+/*CONTAINER5*/
+#container5 {
+  display:grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: calc(0vh - 10px) calc(10vh - 10px) calc(17.5vh - 10px) calc(17.5vh - 10px) calc(35vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+#container5 .titulo5{
+  padding: 9px;
+  background-color:#329430;
+  border-radius: 5px;
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+#container5 .texto5{
+  padding: 9px;
+  background-color:#329430;
+  border-radius: 5px;
+  grid-row: 3/4;
+  grid-column:1/2;
+}
+#container5 .imagenr661{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 3/5;
+  grid-column: 2/3;
+}
+#container5 .imagenr661 img{
+  width: 60%;
+  height: 60%;
+}
+#container5 .imagenr662{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 5/6;
+  grid-column: 2/3;
+}
+#container5 .imagenr662 img{
+  width: 100%;
+  height: 90%;
+}
+#container5 .imagenr663{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 3/5;
+  grid-column: 3/4;
+}
+#container5 .imagenr663 img{
+  width: 90%;
+  height: 100%;
+}
+#container5 .imagenr664{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 5/6;
+  grid-column: 3/4;
+}
+#container5 .imagenr664 img{
+  width: 100%;
+  height: 90%;
 }
